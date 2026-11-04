@@ -1,0 +1,31 @@
+# Keil/STM32 标准忽略项
+*.o
+*.d
+*.crf
+*.htm
+*.lnp
+*.tra
+*.map
+*.axf
+*.elf
+*.lst
+*.scvd
+*.iex
+*.dep
+*.uvguix.*
+*.uvoptx
+*.uvguix.*
+*.sct
+*.icf
+
+# 编译器生成的中间文件和输出文件夹
+Objects/
+Listings/
+Output/
+EventRecorderStub.scvd
+
+# VSCode 配置（可选）
+.vscode/
+
+# 华为云盘/云同步产生的缓存文件（如果有的话）
+HUAWEI/

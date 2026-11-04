@@ -1,0 +1,22 @@
+# clangd 配置（仅用于编辑器智能提示，不影响 Keil 编译）
+CompileFlags:
+  Add:
+    - --target=arm-none-eabi
+    - -mcpu=cortex-m3
+    - -mthumb
+    - -DSTM32F10X_MD
+    - -DUSE_STDPERIPH_DRIVER
+    - "-D__packed="
+    - "-D__irq="
+    - "-D__forceinline="
+    - "-D__declspec(x)="
+    - "-D__asm(x)="
+    - "-D__weak=__attribute__((weak))"
+    - "-D__va_start(ap,fmt)=__builtin_va_start(ap,fmt)"
+    - "-D__va_end(ap)=__builtin_va_end(ap)"
+    - -Id:/Undergraduate_Studies_UJS/sophomore first semester/STM32/Template Project/PID
+    - -Id:/Undergraduate_Studies_UJS/sophomore first semester/STM32/Template Project/PID/std_periph_driver/inc
+    - -Id:/Undergraduate_Studies_UJS/sophomore first semester/STM32/Template Project/PID/user
+    - -Id:/Undergraduate_Studies_UJS/sophomore first semester/STM32/Template Project/PID/my_lib
+    - -isystem
+    - d:/Undergraduate_Studies_UJS/sophomore first semester/STM32/Template Project/PID/.vscode/clangd_stubs
