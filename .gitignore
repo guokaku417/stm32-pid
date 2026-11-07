@@ -28,4 +28,4 @@ EventRecorderStub.scvd
 .vscode/
 
 # 华为云盘/云同步产生的缓存文件（如果有的话）
-HUAWEI/
+HUAWEI/"DebugConfig/" 

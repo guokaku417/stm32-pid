@@ -20,3 +20,6 @@ CompileFlags:
     - -Id:/Undergraduate_Studies_UJS/sophomore first semester/STM32/Template Project/PID/my_lib
     - -isystem
     - d:/Undergraduate_Studies_UJS/sophomore first semester/STM32/Template Project/PID/.vscode/clangd_stubs
+Diagnostics:
+  UnusedIncludes: None
+  MissingIncludes: None
